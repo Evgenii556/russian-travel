@@ -7,6 +7,20 @@
   color: #ffffff;
 }
 
+@media screen and (max-width: 1025px){
+  .intro{
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width: 769px){
+  .intro{
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
 @media screen and (max-width: 660px){
   .intro{
     margin-top: 64px;

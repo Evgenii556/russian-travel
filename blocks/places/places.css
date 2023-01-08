@@ -3,13 +3,28 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 984px;
-  max-height: max-content;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 1025px){
+  .places{
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width: 769px){
+  .places{
+    margin-left: 24px;
+    margin-right: 24px;
+  }
 }
 
 @media screen and (max-width: 660px){
   .places{
     margin-top: 14px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
