@@ -8,6 +8,12 @@
   margin-bottom: 0px;
 }
 
+@media screen and (max-width: 769px){
+  .header__links{
+    margin-right: 24px;
+  }
+}
+
 @media screen and (max-width: 660px){
   .header__links{
     margin-right: 16px;
