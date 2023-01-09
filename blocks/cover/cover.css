@@ -4,18 +4,23 @@
   object-fit: cover;
   max-width: 100%;
   margin-top: 92px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 48px;
+  margin-right: 48px;
   padding: 0px;
   z-index: 1;
   box-sizing: border-box;
   aspect-ratio: 8/5;
 }
 
+@media screen and (max-width: 1025px){
+  .cover{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
 @media screen and (max-width: 660px){
   .cover{
     margin-top: 66px;
-    margin-left: 0px;
-    margin-right: 0px;
   }
 }
